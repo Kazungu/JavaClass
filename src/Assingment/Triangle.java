@@ -10,5 +10,8 @@ public class Triangle {
         double area = 0.5 * object1.height * object1.base;
         System.out.println(area);
 
+        double perimeter = object1.height + object1.base + object1.hypotenious;
+        System.out.println(perimeter);
+
     }
 }
